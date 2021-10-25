@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>WebApiProdutos.Service</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Produtos.Domain\Produtos.Domain.csproj" />
+    <ProjectReference Include="..\Produtos.Infra\Produtos.Infra.csproj" />
+    <ProjectReference Include="..\WebApiProdutos.Shared\Produtos.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
