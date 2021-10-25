@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\WebApiProdutos.Shared\Produtos.Shared.csproj" />
+    <ProjectReference Include="..\Produtos.Shared\Produtos.Shared.csproj" />
   </ItemGroup>
 
 </Project>
